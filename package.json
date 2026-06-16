@@ -1,0 +1,42 @@
+{
+  "name": "mailguard",
+  "version": "0.2.0",
+  "description": "Tiny, dependency-free client for the MailGuard email-verification API: syntax, MX, disposable & role detection, typo suggestions, and a 0–100 deliverability score.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "email",
+    "email-validation",
+    "email-verification",
+    "verify-email",
+    "mx",
+    "disposable-email",
+    "deliverability",
+    "mailguard",
+    "api",
+    "client",
+    "sdk"
+  ],
+  "author": "Anthony Hughes",
+  "license": "MIT",
+  "homepage": "https://mailguard-api.atek.workers.dev",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
