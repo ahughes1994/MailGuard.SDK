@@ -33,6 +33,13 @@
   "author": "Anthony Hughes",
   "license": "MIT",
   "homepage": "https://mailguard-api.atek.workers.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahughes1994/MailGuard.SDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahughes1994/MailGuard.SDK/issues"
+  },
   "engines": {
     "node": ">=18"
   },

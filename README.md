@@ -12,6 +12,8 @@ a 0–100 deliverability score.
 - ✅ Fully typed
 - ✅ **Free tier, no card**: [grab a key](https://mailguard-api.atek.workers.dev)
 
+📦 [npm](https://www.npmjs.com/package/mailguard) · 🐙 [Source on GitHub](https://github.com/ahughes1994/MailGuard.SDK)
+
 ## Install
 
 ```bash
@@ -106,6 +108,11 @@ try {
   }
 }
 ```
+
+## Contributing & issues
+
+Source, issues, and pull requests:
+[github.com/ahughes1994/MailGuard.SDK](https://github.com/ahughes1994/MailGuard.SDK).
 
 ## License
 
