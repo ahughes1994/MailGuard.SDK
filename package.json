@@ -1,6 +1,6 @@
 {
   "name": "mailguard",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Tiny, dependency-free client for the MailGuard email-verification API: syntax, MX, disposable & role detection, typo suggestions, and a 0–100 deliverability score.",
   "type": "module",
   "main": "./dist/index.js",
